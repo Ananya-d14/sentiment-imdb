@@ -16,12 +16,9 @@ env/
 notebooks/
 data/raw/
 data/processed/
-*.h5
-*.keras
 glove.6B.*
 *.zip
 *.tar.gz
 .DS_Store
 docs/
 tests/
-README.md

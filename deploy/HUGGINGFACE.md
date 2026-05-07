@@ -13,11 +13,11 @@ The `README.md` already has the YAML frontmatter Spaces needs
 ## Steps
 
 ```bash
-# log in
-huggingface-cli login
+# log in (paste a write token from huggingface.co/settings/tokens)
+hf auth login
 
-# create the Space
-huggingface-cli repo create sentiment-imdb --type space --space_sdk streamlit
+# create the Space (replace <USERNAME> with your HF username)
+hf repos create <USERNAME>/sentiment-imdb --type space --space-sdk streamlit
 
 # add the Space as a remote and push
 git remote add space https://huggingface.co/spaces/<USERNAME>/sentiment-imdb

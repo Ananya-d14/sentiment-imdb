@@ -22,8 +22,7 @@ RUN python -c "import nltk; nltk.download('stopwords', quiet=True)"
 
 COPY src ./src
 COPY app.py ./
-
-RUN mkdir -p /app/models
+COPY models ./models
 
 EXPOSE 8501
 

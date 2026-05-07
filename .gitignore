@@ -55,11 +55,6 @@ Thumbs.db
 # Project artifacts (large / generated)
 data/raw/
 data/processed/
-models/*
-!models/.gitkeep
-*.h5
-*.keras
-*.pkl
 glove.6B.*
 *.zip
 
